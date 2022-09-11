@@ -1,69 +1,114 @@
-# JWT Authentication React
-Check out the article for the full explanation. [JWT Authentication React](https://www.permify.co/post/jwt-authentication-react).
+Crud de Clientes.
+Feito Crud para Adicionar, Editar, Atualizar e Remover Clientes.
 
-## Available Scripts
+Melhorias e Observações
+o Banco de Dados está compartilhado por tanto Todos os ADMS terão os mesmos clientes, em um upgrade poderia ser possivel cada ADM ter seu sus próprios clientes
+fazendo e poder filtar se quer mostrar somente os seus clientes ou todos os clientes, isso dependeria do modelo de Negócios da Plataforma.
+Melhoraria o Front-End fazendo a apresentação Lista e não em Cards, e Teria uma Página para Cada ID de Cliente onde poderia fazer todas aslterações por lá.
+Poderia ter adicionado Toasters para Avisar quando houvesse algum erro ou algum aviso para o ADM.
 
-In the project directory, you can run:
+Para rodar o Projeto deverá fazer o clone do BackEnd
+e Rodar o mesmo
 
-### `npm start`
+https://github.com/regofalcao/BackClientes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Segundo Após o clone deste projeto deverá rodar o comando
 
-### `npm test`
+Npm Install
+Para que ele instale todas as Dependencias Necessárias.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Em Seguida você irá usar o comando
 
-### `npm run build`
+Npm Start e então a Aplicação estará rodando na sua máquina Local.
+Se a Aplicação não estiver requisitando, tente ver se na pasta Services > api.js a baseURL está de acordo com o IP que seu BackEnd está rodando
+o BackEnd está progamado para rodar na Porta: 3030.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Adm
+Pode ver Clientes já cadastrados.
+Editar Deletar e Criar Clientes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bibliotecas:
 
-### `npm run eject`
+axios
+TailwindCss
+Formik
+react-router-dom
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tela de Cadastro :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Desktop:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64864720/189538142-d8ed77c2-7bd9-4abe-b577-2e07971871d9.png">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mobile:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<img width="770" alt="image" src="https://user-images.githubusercontent.com/64864720/189538191-1cc39c46-0409-4973-964e-e25d359c9a1d.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Tela de Login:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Desktop:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64864720/189538221-df22ecbe-edea-48e2-828f-927f852ef6f6.png">
 
-### Advanced Configuration
+Mobile: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/64864720/189538248-b4157eb4-b446-4dc3-ab66-0b48a4487c48.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Tela Home:
 
-### `npm run build` fails to minify
+Desktop:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64864720/189538392-ca4ab268-ffdd-4626-9228-61f8fcf9a025.png">
+
+
+Mobile:
+
+
+<img width="773" alt="image" src="https://user-images.githubusercontent.com/64864720/189538428-e989ad29-54f0-4f87-a47d-6500764271d8.png">
+
+
+Tela de Adicionar Clientes: 
+
+Desktop:
+
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64864720/189538495-1041fc21-03e6-4f2f-ac21-29fb2791210e.png">
+
+
+Mobile:
+
+
+<img width="772" alt="image" src="https://user-images.githubusercontent.com/64864720/189538479-f64bd62e-8cb6-4734-a795-422ecbcd86dd.png">
+
+
+Tela de Editar Clientes: 
+
+Desktop:
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64864720/189538709-da06d19b-eb49-4105-a448-7eb937822d9e.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64864720/189538591-12f9edd8-cdbe-4347-87c9-dcb1b6667d70.png">
+
+
+Mobile:
+
+
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/64864720/189538528-dfcc040c-4784-485e-8f8c-70943d00f0ae.png">
+
+
+
+
+
+
+
+
+
+
