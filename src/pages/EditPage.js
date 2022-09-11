@@ -36,7 +36,7 @@ const editPage = () => {
 
 
   return (
-    <div className="editPage w-full h-screen">
+    <div className="editPage w-full  overflow-auto">
       <Formik
         onSubmit={onSubmit}
         validateOnMount

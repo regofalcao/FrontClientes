@@ -40,7 +40,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="h-screen overflow-hidden">
+    <div className="h-screen">
       <div className="flex bg-[#5465af] w-full items-end justify-end py-1">
         <div className="w-[60%] md:w-[50%] flex justify-between mr-6">
           <span className="text-white font-bold text-xl"> Home Page </span>
